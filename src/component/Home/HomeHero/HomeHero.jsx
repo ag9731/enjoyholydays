@@ -7,6 +7,7 @@ import h3 from "../../../assets/hero6.jpg";
 import h4 from "../../../assets/hero4.jpg";
 import h5 from "../../../assets/hero5.jpg";
 import HomeHeroText from './HomeHeroText';
+import { Link } from "react-router-dom";
 
 const HomeHero = () => {
   return (

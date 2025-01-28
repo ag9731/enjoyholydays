@@ -4,7 +4,7 @@ import {
   faTwitter,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import footerLogo from "../../assets/logo-removebg-preview.png"
+import footerLogo from "../../assets/logo-removebg-preview.png";
 import {
   faEnvelopeOpen,
   faFileAlt,
@@ -84,10 +84,10 @@ const Footer = () => {
                    text-xl p-4"
                       />
                       <a
-                        href="mailto:admissions@hillsideacademy.in"
+                        href="mailto:enjoyholidays.co.in"
                         className="text-white"
                       >
-                        enjoyholidays.com
+                        enjoyholidays.co.in
                       </a>
                     </li>
                   </ul>
@@ -98,41 +98,46 @@ const Footer = () => {
             {/* Column */}
             <div className="w-full sm:w-1/3 my-12 lg:my-0 md:my-0mb-12 ">
               <div className="footer-c-widget h-white list-widget text-white">
-                <h3 className="text-lg font-semibold mb-4 mx-14">QUICK LINKS</h3>
+                <h3 className="text-lg font-semibold mb-4 mx-14">
+                  QUICK LINKS
+                </h3>
                 <ul className="text-left px-20">
                   <li className="relative">
-                    <Link to={"/"}
+                    <Link
+                      to={"/"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Home
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link to={"/about"}
+                    <Link
+                      to={"/about"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       About Us
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link to={"/services"}
+                    <Link
+                      to={"/services"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Services
                     </Link>
                   </li>
                   <li className="relative">
-                    <Link to={"/gallery"}
+                    <Link
+                      to={"/gallery"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Gallery
                     </Link>
                   </li>
-                  
 
-                  
                   <li className="relative">
-                    <Link to={"/contact"}
+                    <Link
+                      to={"/contact"}
                       className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
                     >
                       Contact Us
@@ -154,7 +159,8 @@ const Footer = () => {
                       icon={faMapMarkerAlt}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    4, N S Iyengar St, 4th Block, Kumara Park West, Seshadripuram, Bengaluru, Karnataka 560020
+                    4, N S Iyengar St, 4th Block, Kumara Park West,
+                    Seshadripuram, Bengaluru, Karnataka 560020
                   </li>
                   <hr className="border-gray-700 mb-4" />
                   <h5 className="text-md text-center md:text-left font-semibold mb-2">
@@ -187,12 +193,15 @@ const Footer = () => {
                       icon={faFileArchive}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    <a
+                    <a href="mailto:enjoyholidays.co.in" className="text-white">
+                      enjoyholidays.co.in
+                    </a>
+                    {/* <a
                       href="privacy-policy.html"
                       className="text-white text-center"
                     >
                       Privacy Policy
-                    </a>
+                    </a> */}
                   </li>
                 </ul>
               </div>
@@ -206,7 +215,9 @@ const Footer = () => {
 
       {/* Sub Footer */}
       <div className="sub-footer bg-gray-900 text-white text-center py-4">
-        <p className="text-sm">Powered by INNOMATRICS TECH.</p>
+        <a href="https://innomatricstech.com/">
+          <p className="text-sm">Powered by INNOMATRICS TECH.</p>
+        </a>
       </div>
       {/* Sub Footer */}
     </div>

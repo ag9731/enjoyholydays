@@ -14,6 +14,8 @@ import Image9 from '../../../assets/ahmedabad.jpg';
 import Image10 from '../../../assets/lonavala.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from "react-router-dom";
+
 AOS.init();
 const HomeTourPackages = () => {
   const tourData = [
@@ -109,9 +111,11 @@ const HomeTourPackages = () => {
                   <span className='text-sm'>{tour.locations}</span>
                 </div>
                 <div className="mt-2 text-left">
+                  <Link to={"/contact"}>
                   <button className="bg-amber-500 mx-7 text-white py-2 px-4  hover:bg-zinc-950 transition ease-in-out duration-300">
                     Book Now
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
