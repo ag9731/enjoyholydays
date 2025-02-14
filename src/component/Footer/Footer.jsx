@@ -171,7 +171,7 @@ const Footer = () => {
                       icon={faMobileAlt}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    +91-98459 56633
+                    +91-63667 00432
                   </li>
                   {/* <hr className="border-gray-700 mb-4" />
                   <li className="flex items-start mb-4">
