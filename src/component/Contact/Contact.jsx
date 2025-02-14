@@ -59,7 +59,7 @@ const Contact = () => {
                 icon={faPhone}
                 className="mr-2 text-orange-500"
               />
-              <span>Phone: +91-98459 56633</span>
+              <span>Phone: +91-63667 00432</span>
             </p>
             <p>
               <FontAwesomeIcon
@@ -73,7 +73,7 @@ const Contact = () => {
       </div>
       <div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.651519988216!2d77.6640818!3d12.993401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1137e2350dff%3A0x5572544ba88cb88!2sChethan%20Theatre!5e0!3m2!1sen!2sin!4v1721997412375!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.719230584889!2d77.57209037538163!3d12.989801387327244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae170030771e61%3A0x1bd7dec2a9f95f09!2sChethan%20Cinemas!5e0!3m2!1sen!2sin!4v1739516411249!5m2!1sen!2sin"
           width="1600"
           height="450"
           style={{ border: 0 }}
