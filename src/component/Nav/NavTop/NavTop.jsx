@@ -18,7 +18,7 @@ const NavTop = () => {
             </li>
             <li className="flex items-center mt-2 sm:mt-0 cursor-pointer text-zinc-950 hover:text-white transition ease-in-out duration-300">
               <FontAwesomeIcon icon={faMobileAlt} className="px-2" />
-              <span>+91-98459 56633</span>
+              <span>+91-63667 00432</span>
             </li>
           </ul>
         </div>
